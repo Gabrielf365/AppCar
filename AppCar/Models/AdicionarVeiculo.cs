@@ -9,7 +9,7 @@ namespace AppCar.Models {
         public string Modelo { get; set; }
         public int Kml { get; set; }
 
-        public AdicionarVeiculo(string placa, string modelo, double kml) {
+        public AdicionarVeiculo(string placa, string modelo, int kml) {
             Placa = placa;
             Modelo = modelo;
             Kml = kml;
